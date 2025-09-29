@@ -47,36 +47,7 @@ The project demonstrates **OTP-based authentication**, **Google OAuth login**, a
 - Backend: Render
 - Database: MongoDB Atlas
 
-## 📂 Folder Structure
 
-note-app/
-├── backend/
-│ ├── src/
-│ │ ├── index.ts
-│ │ ├── routes/
-│ │ │ ├── auth.ts
-│ │ │ └── notes.ts
-│ │ ├── models/
-│ │ │ ├── User.ts
-│ │ │ └── Note.ts
-│ │ ├── utils/
-│ │ │ └── mailer.ts
-│ │ └── middleware/
-│ │ └── auth.ts
-│ ├── package.json
-│ └── tsconfig.json
-├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ │ ├── AuthPage.tsx
-│ │ │ ├── Dashboard.tsx
-│ │ │ └── OAuthRedirect.tsx
-│ │ ├── components/
-│ │ │ └── InputField.tsx
-│ │ ├── api/api.ts
-│ │ └── main.tsx
-│ ├── package.json
-│ └── tsconfig.json
 
 ## ⚙️ Installation Guide
 
@@ -116,3 +87,4 @@ note-app/
 ## 📜 License
 
 MIT License © 2025 Your Name
+
