@@ -2,7 +2,7 @@
 # 📝 Note-App
 
 🚀 Note-App is a full-stack web application that allows users to securely create, manage, and organize their notes.
-Built with a Node.js + Express + MongoDB backend and a React + TypeScript frontend, it provides a modern and responsive user experience. The app features user authentication (JWT & OAuth), CRUD functionality for notes, and email integration via Nodemailer.
+Built with a Node.js + Express + MongoDB backend and a React + TypeScript frontend, it provides a modern and responsive user experience. The app features user authentication (JWT & OAuth), CRUD functionality for notes, and email integration via SendGrid.
 
 Designed with scalability and maintainability in mind, this project follows a clean architecture and leverages TypeScript for type safety on both client and server sides.
 
@@ -175,4 +175,5 @@ npm run build
 
    ## 📜 License
 This project is created for internship and educational purposes.
+
 
