@@ -36,6 +36,8 @@ Designed with scalability and maintainability in mind, this project follows a cl
 
 Project-Demo : https://note-app-assignment-mern-1.onrender.com/
 
+---
+
 ## 🚀 Tech Stack
 
 ### Backend
@@ -50,11 +52,22 @@ Project-Demo : https://note-app-assignment-mern-1.onrender.com/
 - Vite (Build tool)
 - Axios (API handling)
 - TailwindCSS
+
+---
+
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### AUTH-SignUP-Page
+<img width="1891" height="833" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/dde16d9b-1157-47f5-bf3e-aa19ccc408b4" />
+
+### AUTH-SignIn-Page
+<img width="1909" height="830" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/3bb2c27b-02d0-48d9-8f37-c2b70f8efdbe" />
+
+### Dashboard_Page
+<img width="1894" height="852" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/5e79aaa7-fed0-4578-81f0-146a42a4c921" />
 
 
+---
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -76,6 +89,7 @@ GOOGLE_CLIENT_SECRET
 
 `FRONTEND_ROOT`= //Frontend_URL
 
+---
 
 ## Run Locally
 
@@ -121,7 +135,7 @@ Start the server
   npm run dev
 ```
 
-
+---
 ## Deployment
 
 ### Backend Setup
@@ -156,6 +170,9 @@ npm install
 ### Build dependencies       
 ```bash
 npm run build 
-```    
+```
+---
+
    ## 📜 License
 This project is created for internship and educational purposes.
+
