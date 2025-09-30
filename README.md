@@ -68,7 +68,7 @@ Project-Demo : https://note-app-assignment-mern-1.onrender.com/
 
 
 ---
-## Environment Variables
+## Environment Variables in Backend
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -88,6 +88,10 @@ GOOGLE_CLIENT_SECRET
 `BACKEND_ROOT` = //Backend_URL
 
 `FRONTEND_ROOT`= //Frontend_URL
+
+## Environment Variables in Frontend
+
+`BACKEND_ROOT` = //Backend_URL
 
 ---
 
@@ -175,5 +179,6 @@ npm run build
 
    ## 📜 License
 This project is created for internship and educational purposes.
+
 
 
