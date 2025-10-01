@@ -86,19 +86,19 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 p-6">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen sm:h-full bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 p-6">
+      <div className="md:max-w-4xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-3xl font-extrabold text-gray-800">
+            <h1 className=" max-sm:text-[10px] md:text-3xl font-extrabold text-gray-800">
               Welcome, {user?.name || user?.email}
             </h1>
             <div className="text-sm text-gray-500">{user?.email}</div>
           </div>
           <button
             onClick={logout}
-            className="px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-xl shadow transition"
+            className="max-sm:px-1 max-sm:py-1 md:px-4 md:py-2 bg-red-500 hover:bg-red-600 text-white rounded-xl shadow transition"
           >
             Logout
           </button>

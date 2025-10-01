@@ -77,7 +77,7 @@ export default function AuthPage() {
   return (
     <div className="min-h-screen grid grid-cols-1 gap-3 md:grid-cols-2 px-1 py-1">
       {/* Left panel */}
-      <div className="flex w-[60%] flex-col justify-center ml-26 px-8 py-12">
+      <div className="flex md:w-[60%] flex-col justify-center md:ml-26 px-8 py-12">
         <div className="mb-10">
           <img src="/logo.png" alt="HD logo" className="h-8" />
         </div>
