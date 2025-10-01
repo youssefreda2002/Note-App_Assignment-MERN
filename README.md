@@ -1,90 +1,184 @@
-# Notes App – Full Stack Project
 
-A modern **full-stack Notes application** built with **React (Vite)**, **TypeScript**, **Express.js**, and **MongoDB**.  
-The project demonstrates **OTP-based authentication**, **Google OAuth login**, and secure **JWT-based session handling**, making it ideal as a production-ready reference for user authentication and CRUD operations.
+# 📝 Note-App
 
-## 🚀 Features
+🚀 Note-App is a full-stack web application that allows users to securely create, manage, and organize their notes.
+Built with a Node.js + Express + MongoDB backend and a React + TypeScript frontend, it provides a modern and responsive user experience. The app features user authentication (JWT & OAuth), CRUD functionality for notes, and email integration via SendGrid.
 
-- **User Authentication**
-  - Email + OTP-based sign-up & sign-in
-  - Google OAuth 2.0 integration
-  - JWT-based authentication (stateless & secure)
-- **Notes Management**
-  - Create, Read, Update, Delete (CRUD) notes
-  - Notes tied to authenticated users only
-  - Responsive Dashboard with a clean UI
-- **Modern UI/UX**
-  - Figma-inspired design
-  - Floating/inline label input fields
-  - Mobile-first, responsive layout
-- **Developer-Friendly**
-  - TypeScript everywhere (frontend & backend)
-  - Modular code structure
-  - Reusable components & APIs
+Designed with scalability and maintainability in mind, this project follows a clean architecture and leverages TypeScript for type safety on both client and server sides.
 
-## 🛠️ Tech Stack
+✨ Key Highlights
 
-**Frontend**
+🔐 Secure authentication system
 
-- React + TypeScript
-- Vite
-- React Hook Form + Zod (form validation)
-- Tailwind CSS (UI styling)
-- Axios (API calls)
-- React Router (routing)
+📝 Full CRUD operations for notes
 
-**Backend**
+📧 Email support (password recovery/notifications)
 
+⚡ High-performance frontend with Vite
+
+🎨 Responsive UI with reusable React components
+
+
+## ✨ Features
+- 🔐 Secure User Authentication (JWT + OAuth redirect)  
+- 🗒️ Notes CRUD functionality  
+- 💾 MongoDB Database Integration  
+- 🛡️ Middleware-protected routes  
+- 📧 Email notifications with Nodemailer  
+- 🎨 Responsive React UI with Vite  
+
+## Authors
+
+- [@YahyaShanawazMohammed](https://github.com/Shaan-77)
+
+
+## Demo
+
+Project-Demo : https://note-app-assignment-mern-1.onrender.com/
+
+---
+
+## 🚀 Tech Stack
+
+### Backend
 - Node.js + Express.js
-- MongoDB + Mongoose
-- Passport.js (Google OAuth strategy)
-- JWT (authentication)
-- Nodemailer (OTP delivery)
+- TypeScript
+- MongoDB (Mongoose)
+- JWT Authentication & Oauth(google Authentication)
+- SendGrid
 
-**Deployment**
+### Frontend
+- React.js (with TypeScript)
+- Vite (Build tool)
+- Axios (API handling)
+- TailwindCSS
 
-- Frontend: Vercel
-- Backend: Render
-- Database: MongoDB Atlas
+---
+
+## Screenshots
+
+### AUTH-SignUP-Page
+<img width="1891" height="833" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/dde16d9b-1157-47f5-bf3e-aa19ccc408b4" />
+
+### AUTH-SignIn-Page
+<img width="1909" height="830" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/3bb2c27b-02d0-48d9-8f37-c2b70f8efdbe" />
+
+### Dashboard_Page
+<img width="1894" height="852" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/5e79aaa7-fed0-4578-81f0-146a42a4c921" />
 
 
+---
+## Environment Variables in Backend
 
-## ⚙️ Installation Guide
+To run this project, you will need to add the following environment variables to your .env file
 
-1. Clone the repository
-2. Setup backend and frontend (npm install)
-3. Configure environment variables (.env files)
-4. Run backend (http://localhost:7000)
-5. Run frontend (http://localhost:5173)
+`MONGO_URI` = //Your mongo URI
 
-## 🌍 Deployment
+`PORT`=
 
-- Backend: Render
-- Frontend: Vercel
-- Database: MongoDB Atlas
-- Google OAuth setup (Authorized redirect URIs)
+`SENDGRID_API_KEY` = // Your sendgrid_API_KEY
 
-## 📖 API Endpoints
+`SMTP_FROM` = /Your smtp from mail address
 
-### Auth
+`GOOGLE_CLIENT_ID` =// your GOOGLE_CLIENT_ID
 
-- POST /auth/request-otp
-- POST /auth/verify-otp
-- GET /auth/google
-- GET /auth/google/callback
+`GOOGLE_CLIENT_SECRET` = //Your
+GOOGLE_CLIENT_SECRET
 
-### Notes
+`BACKEND_ROOT` = //Backend_URL
 
-- GET /notes
-- POST /notes
-- PUT /notes/:id
-- DELETE /notes/:id
+`FRONTEND_ROOT`= //Frontend_URL
 
-## 🤝 Contribution Guidelines
+## Environment Variables in Frontend
 
-- Fork repo, branch, commit, PR
+`BACKEND_ROOT` = //Backend_URL
 
-## 📜 License
+---
 
-MIT License © 2025 Your Name
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Shaan-77/Note-App_Assignment-MERN
+```
+
+Go to the Backend directory
+
+```bash
+  cd Backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Go to the Frontend directory
+
+```bash
+  cd Frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+---
+## Deployment
+
+### Backend Setup
+
+```bash
+cd Note-App/Backend
+```
+#### Install dependencies
+
+```bash
+npm install
+```
+### Build dependencies       
+```bash
+npm run build 
+```    
+#### Deployment
+
+```bash
+npm run start
+```    
+### Frontend Setup
+
+```bash
+cd Note-App/Frontend
+```
+#### Install dependencies
+
+```bash
+npm install
+```
+### Build dependencies       
+```bash
+npm run build 
+```
+---
+
+   ## 📜 License
+This project is created for internship and educational purposes.
+
+
 
